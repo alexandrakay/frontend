@@ -278,6 +278,7 @@ h4 {
 }
 
 .commentHeader > h1 {
+  text-align: center;
   padding: 0.7em;
   margin-bottom: 0em;
 }
@@ -305,10 +306,10 @@ h4 {
   background-color: #0b0c10;
   color: #66fcf1;
   display: flex;
-  flex-direction: row-reverse;
+  /* flex-direction: row-reverse; */
   flex-flow: row nowrap;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
   font-size: 1rem;
 
 }
@@ -342,4 +343,10 @@ h2{
 
 #commentid{
   color: #66fcf1;
+}
+
+@media screen and (max-width: 850px){
+  .commentHeader > h1{
+    font-size:3rem;
+  }
 }
