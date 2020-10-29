@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import Card from "./Card";
+import "../App.css"
 
 import { useGetSavedCommentContext } from "./contexts/UserContext";
 

@@ -80,6 +80,7 @@ function SignUp() {
         <label>
           <p> Already have an account? </p>
           <br />
+          <br />
           <Link id="login-link" to="/login">Login here!</Link>
          <br />
           <br />

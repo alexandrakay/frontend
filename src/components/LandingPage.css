@@ -1,0 +1,26 @@
+.background-image {
+    /*   positioning */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  /*   sizes */
+    width: 100vw;
+    height: 100vh;
+    background-color: lightgreen;
+  }
+  
+  .wrapper-div {
+  /*   behavior */
+    box-sizing: content-box;
+    border-radius: 4px;
+    
+  /*   positioning */
+    
+  /*   dimension */
+    height: 35vh;
+    width: 70vw;
+    
+  /*   colors */
+    background-color: white;
+  }

@@ -1,28 +1,28 @@
-@import url('https://fonts.googleapis.com/css2?family=Grenze+Gotisch:wght@500&family=Nunito:ital@1&display=swap');
 
 
 /*login form class applies css to both login and sign up cards*/
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&family=Roboto&family=Vampiro+One&display=swap');
+
 
 #loginform{
   
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: rgba(255,255,255,.1);
-  background: linear-gradient(90deg, #fafafa 20%,    whitesmoke 100%);
+  background-color:#1f2833;
+
   width: 30rem;
   height: 100%;
   margin: 100px auto;
-  border-radius: 10px;
-  padding: 1rem;
-  margin-top: 3rem;
+  border-radius: 2px;
+  padding: 1.6rem;
+  margin-top: 1rem;
   text-align: center;
-  color: midnightblue;
+  color: white;
   font-family: 'Courier New', Courier, monospace;
   font-size: 2rem;
   box-shadow: 0 35px 46px rgba(0,0,0,0.30), 0 18px 25px rgba(0,0,0,0.22);
-  transition: 0.3s;
-  border: 12px solid #fff; 
+  
   
 }
 
@@ -37,45 +37,51 @@
 
 label{
   flex-wrap: wrap;
-  margin-top: 1rem;
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
   width: 100%;
   box-sizing: border-box;
   border: none;
   text-align:center;
-  font-size: 1rem;
+  font-size: 1.8rem;
   transition: box-shadow 0.6s ease-in;
   text-align: center;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: 'Orbitron', sans-serif;
   opacity: .9;
 }
 /*input styles the specific box whene user types input*/
 
 input:focus{
-   box-shadow: inset 0px -3px 0px 0px midnightblue;
+   box-shadow: inset 0px -3px 0px 0px #45a29e;
    outline: none;
-   margin-right: 2rem;
+   margin-right: 1rem;
+  
 }
 
 
  input{
-  width: 100%;
-  align-items: center;
+  width: 92%;
+
+  font-size: 1.4rem;
   /* margin: .8rem; */
-  margin-right: .4;
+  margin-top: 1.4rem;
+  margin-right: 1.4;
   margin-left: 1.4;
-  padding-bottom: 1rem;
-  color:midnightblue;
-  font-family: 'Nunito', sans-serif;
+  /* padding: 1.4rem; */
+  color:#c5c6c7;
+  font-family: 'Roboto', sans-serif;
   transition: box-shadow 0.2s ease-in;
   border: none;
-  background: linear-gradient(90deg, #fafafa 20%,    whitesmoke 100%);
+ background: transparent;
   box-shadow: inset 0px -3px 0px 0px rgba(187,187,187,0.2);
 }
 
 /*h1 applies to the header "Log In" and "Sign up"*/
 h1{
-  text-shadow: 1px .5px .5px lightgray, 0 0 4px white;
-  font-family:  'Nunito', sans-serif;
+  /* text-shadow: 1px .5px .5px lightgray, 0 0 4px white; */
+  font-family: 'Orbitron', sans-serif;
+  color: #66fcf1;
+  
   
 }
 
@@ -83,7 +89,7 @@ h1{
 /*applies to buttons on both forms*/
 
 button{
-  border-radius: 6px;
+  border-radius: 2px;
   border: none;
   align-self: center;
   width: 80%;
@@ -92,12 +98,12 @@ button{
   margin-top: 2.4rem;
   color: white;
   font-weight: 700;
-  background:darkcyan;
-  background: linear-gradient(90deg,  midnightblue 0%,  darkcyan  100%);
+
+  background: linear-gradient(90deg,  #66fcf1 0%,  #45a29e  100%);
   border: 0px;
   cursor: pointer;
   transition: opacity 0.65s ease-in;
-  font-family: 'Nunito', sans-serif;
+  font-family: 'Orbitron', sans-serif;
  
 }
 button:disabled {
@@ -112,7 +118,7 @@ button:hover{
 }
 
 h1{
-  font-size: 2rem;
+  font-size: 6rem;
   font-weight: bold;
   margin-bottom: 2.3rem;
 
@@ -123,40 +129,44 @@ p{
   margin-bottom: 1rem;
 }
 #form-errors {
-  font-size: .8rem;
-  font-family: 'Nunito', sans-serif;
+  font-size: 1rem;
+  font-family: 'Roboto', sans-serif;
+  margin-top: .5;
   
 
 }
 
 #login-link {
-  margin-top: .4rem;
-  color: midnightblue;
+  padding: 1rem;
+  color: #45a29e;
 }
 #login-link:hover{
   color: red;
 }
 /*styling for pirate insult api*/
 article {
-  margin-top: 10rem;
+  margin-top: 4rem;
+  color: #66fcf1;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
   flex-wrap: wrap;
   /* align-items: center; */
-  
-  font-size: 2.5rem;
+  font-family: 'Vampiro One', cursive;
+ 
+  font-size: 1.8rem;
   text-align: center;
-  margin:.5rem;
- font-family: 'Grenze Gotisch', cursive;
+  font-family: 'Vampiro One', cursive;
 }
 
 #insult {
-  margin-top: 2rem;
+  margin-top: 1rem;
+ 
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
   text-align: center;
+  font-size: 1.1rem;
   /* align-self: center; */
 }
 /*added max-width and margin*/
@@ -166,7 +176,7 @@ article {
 }
 
 #login{
-  margin-top: 8rem;
+  margin-top: 4.4rem;
 
 }
 
@@ -176,21 +186,22 @@ article {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: rgba(255,255,255,.1);
-  background: linear-gradient(90deg, #fafafa 20%,    whitesmoke 100%);
+  /* background-color: rgba(255,255,255,.1); */
+  /* background: linear-gradient(90deg, #fafafa 20%,    whitesmoke 100%); */
+  background-color:#1f2833;
   width: 30rem;
   height: 100%;
   margin: 100px auto;
-  border-radius: 10px;
+  border-radius: 2px;
   padding: 2rem;
-  margin-top: 2.0rem;
+  margin-top: .5rem;
   text-align: center;
-  color: midnightblue;
-  font-family: 'Courier New', Courier, monospace;
-  font-size: 2rem;
+  color: white;
+  font-family: 'Orbitron', sans-serif;
+ 
   box-shadow: 0 35px 46px rgba(0,0,0,0.30), 0 18px 25px rgba(0,0,0,0.22);
   transition: 0.3s;
-  border: 12px solid #fff; 
+  /* border: 2px solid #fff;  */
   
 }
 

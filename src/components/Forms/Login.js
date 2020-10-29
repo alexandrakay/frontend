@@ -124,6 +124,7 @@ export default function Login() {
             {" "}
             <br></br> Don't have an account? <br></br>
           </p>
+          <br />
           <Link id="login-link" to="/signup">
             Sign up here!
           </Link>
@@ -138,7 +139,7 @@ export default function Login() {
 
       <article>
 
-        <p>{insult}</p>
+        {insult}
       </article>
 
       <br></br>

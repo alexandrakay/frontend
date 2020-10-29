@@ -13,11 +13,14 @@ function Comment(props) {
 
   return (
     <>
-      Comment ID: {comment.id}
+      <h4>Comment ID: {comment.id}</h4>
       <br />
-      Comment: {comment.comment}
-      <br />
-      Salt Level: {comment.negativity_score}
+   
+   
+
+    {comment.comment}
+      <br /> <br />
+      <h4>Salt Level: {comment.negativity_score}</h4>
       <br />
       User: <Link to={`/user/${comment.user_id}`}>{comment.user_id}</Link>
       <br />
