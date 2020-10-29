@@ -20,8 +20,8 @@ function Comment(props) {
 
     {comment.comment}
       <br /> <br />
-      <h4>Salt Level: {comment.negativity_score}</h4>
-      <br />
+      <p id="salt">Salt Level: {comment.negativity_score}</p>
+      <br /><br />
       User: <Link to={`/user/${comment.user_id}`}>{comment.user_id}</Link>
       <br />
       <button className="cardButton" onClick={handleClick}>

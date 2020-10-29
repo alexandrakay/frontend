@@ -10,7 +10,9 @@ function Card(props) {
 
   return (
     <div className="card">
-      <h3 className="cardTitles">Comment: </h3> <br />
+      <h3 className="cardTitles">Comment: </h3>
+       <br /> 
+       <br />
       {comment.comment}
       <br />
       <br />

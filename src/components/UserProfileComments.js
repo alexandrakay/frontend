@@ -4,9 +4,10 @@ function UserProfileComments(props) {
   const { person } = props;
   return (
     <div className="userComments">
-     Comment:
+    <h2> comment:  </h2>
       {person.comment} <br />
-      Salt Level: {person.negativity_score}
+    
+      <p id="salt">Salt Level: {person.negativity_score}</p>
       <br />
     </div>
   );
