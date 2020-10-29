@@ -190,10 +190,13 @@ body {
 
 
 h5 {
-  margin: 1rem;
-  padding: 0em 20%;
-  font-size: 1.3rem;
+  margin: .6rem;
+  margin-bottom: 1.2rem;
+  margin-top: 1rem;
+  padding: 0em 14%;
+  font-size: 1.1rem;
   width: 100%;
+  line-height: 1;
   text-align: center;
   color: #45a29e;
   font-family: 'Orbitron', sans-serif;
@@ -301,7 +304,7 @@ h4 {
 }
 
 .navbar{
-  width: 100vw;
+  width:80vw;
   height: 10vh;
   background-color: #0b0c10;
   color: #66fcf1;
@@ -348,5 +351,8 @@ h2{
 @media screen and (max-width: 850px){
   .commentHeader > h1{
     font-size:3rem;
+  }
+  h1{
+    font-size:5rem;
   }
 }
