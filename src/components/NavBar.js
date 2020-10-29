@@ -11,7 +11,7 @@ function NavBar() {
       {token  &&
       <Link to="/logout">Logout</Link>
       }
-      
+     
 
     </nav>
   );
