@@ -93,7 +93,7 @@ export const UserProvider = ({ children }) => {
           });
     }
 
-  }, [userID]);
+  }, [updated]);
 
   const saveComment = (data) => {
     axiosWithAuth()
