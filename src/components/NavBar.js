@@ -7,7 +7,7 @@ const token = localStorage.getItem("token");
 function NavBar() {
   return (
     <nav className="navbar">
-      {token && <Link to="/">Home</Link>}
+    <Link to="/">Home</Link>
       {token && <Link to="/comments">Comments</Link>}
       {token && <Link to="/logout">Logout</Link>}
 
