@@ -18,7 +18,7 @@ function Dashboard() {
   return (
     <>
       <div className="dashHeader">
-        <NavBar />
+
         <h1> Saltiest Hacker </h1>
         <h5>
           Find the Hacker News most saltiest comments and save them to your

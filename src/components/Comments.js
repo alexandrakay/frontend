@@ -15,7 +15,7 @@ function Comments() {
   return (
     <div>
       <div className="commentHeader">
-        <NavBar />
+
         <h1>Comments Feed</h1>
       </div>
 

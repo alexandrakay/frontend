@@ -8,11 +8,12 @@ function NavBar() {
   return (
     <nav className="navbar">
       <Link to="/">Home</Link>
-
+      {token  &&
       <Link to="/comments">Comments</Link>
-
+      }
+      {token  &&
       <Link to="/logout">Logout</Link>
-
+      }
 
       {/* <Link to="/landingpage">Marketing</Link> */}
      

@@ -20,7 +20,7 @@ function UserProfile() {
 
     return (
       <>
-      <NavBar />
+
         <h1>User ID {id}</h1>
 
         <h5>User Comments</h5>

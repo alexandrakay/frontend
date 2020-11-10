@@ -17,7 +17,7 @@ function App() {
   return (
     <UserProvider>
       <div className="App">
- 
+         <NavBar />
         <Route path="/login">
           <Login />
         </Route>
