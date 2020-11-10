@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import Card from "./Card";
 import "../App.css"
-
+import NavBar from "../components/NavBar"
 import { useGetSavedCommentContext } from "./contexts/UserContext";
 
 
@@ -18,6 +18,7 @@ function Dashboard() {
   return (
     <>
       <div className="dashHeader">
+        <NavBar />
         <h1> Saltiest Hacker </h1>
         <h5>
           Find the Hacker News most saltiest comments and save them to your

@@ -3,6 +3,7 @@
 import React, { useEffect, useState } from "react";
 import { useComments } from "./contexts/UserContext";
 import Comment from "./Comment";
+import NavBar from "../components/NavBar"
 function Comments() {
   const getComments = useComments();
   const [comments, setComments] = useState([]);
@@ -14,6 +15,7 @@ function Comments() {
   return (
     <div>
       <div className="commentHeader">
+        <NavBar />
         <h1>Comments Feed</h1>
       </div>
 

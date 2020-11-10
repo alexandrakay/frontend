@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
-
+import NavBar from "../components/NavBar"
 import { useComments } from "./contexts/UserContext";
 import UserProfileComments from "./UserProfileComments";
 
@@ -14,12 +14,13 @@ function UserProfile() {
         setComment(getComments);
     }, [getComments]);
 
-    const result = comment.filter((com) => com.user_id == id);
+    const result = comment.filter((com) => com.user_id === id);
     console.log(result);
 
 
     return (
       <>
+      <NavBar />
         <h1>User ID {id}</h1>
 
         <h5>User Comments</h5>

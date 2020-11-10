@@ -92,7 +92,8 @@ export const UserProvider = ({ children }) => {
             return setSavedComments(err.response.data);
           });
     }
-  }, [updated]);
+
+  }, [userID]);
 
   const saveComment = (data) => {
     axiosWithAuth()
